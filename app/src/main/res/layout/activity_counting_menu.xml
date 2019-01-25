@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountingMenuActivity"
+    android:background="@color/bg_color"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/coiny"
+            android:gravity="center"
+            android:text="Pick a range!"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_one_to_twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 - 20"
+            android:fontFamily="serif"
+            android:background="@drawable/round_button_pink_red"
+            android:textColor="@android:color/white"
+            android:layout_margin="8dp"
+            android:elevation="24dp"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21 - 40"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:background="@drawable/round_button_pink_red"
+            android:layout_margin="8dp"
+            android:elevation="24dp"
+
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="41 - 60"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:background="@drawable/round_button_pink_red"
+            android:layout_margin="8dp"
+            android:elevation="24dp"
+
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="61 - 80"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button_pink_red"
+            android:elevation="24dp"
+
+            />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="81 - 100"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:layout_margin="8dp"
+            android:background="@drawable/round_button_pink_red"
+            android:elevation="24dp"
+
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

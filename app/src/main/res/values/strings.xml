@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kiddies</string>
+    <string name="leftside"><![CDATA[<]]></string>
+    <string name="leftt"><![CDATA[<]]></string>
+    <string name="lefttt"><![CDATA[<]]></string>
+    <string name="red" >RED</string>
+    <string name="copyright">&#169; Kiddies 2018</string>
+
+</resources>
